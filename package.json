@@ -4,7 +4,7 @@
   "description": "This is a nodejs application example with mongoose",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mongoose": "^5.3.1"
+    "mongoose": "^5.3.1",
+    "nodemon": "^1.18.4"
   }
 }
